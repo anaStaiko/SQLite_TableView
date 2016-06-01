@@ -86,7 +86,7 @@
             }
         }
         else {
-            NSLog(@"%s", sqlite3_errmsg(sqlite3Database));
+            NSLog(@"%s", sqlite3_errmsg(sqlite3Database)); 
         }
         sqlite3_finalize(compiledStatement);
         

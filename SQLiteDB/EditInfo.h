@@ -13,7 +13,7 @@
 
 @protocol EditInfoDelegate
 
--(void)editingInfoWasFinished;
+-(void)editingInfoWasFinished; 
 
 @end
 
